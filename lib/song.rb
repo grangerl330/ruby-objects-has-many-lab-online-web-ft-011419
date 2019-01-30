@@ -7,7 +7,7 @@ class Song
     @name = name 
     @@all << self  
   end 
-  
+
   def self.all 
     @@all 
   end 
@@ -15,5 +15,5 @@ class Song
   def artist_name
     self.artist ? self.artist.name : nil 
   end 
-    
+  
 end 
